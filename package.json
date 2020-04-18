@@ -1,7 +1,9 @@
 {
 	"name": "react-cosha",
-	"version": "0.0.1-alpha.1",
-	"main": "dist/index.js",
+	"repository": "git@github.com:ShaunLWM/react-cosha.git",
+	"author": "ShaunLWM ",
+	"version": "0.0.1-alpha.2",
+	"main": "dist/Cosha.js",
 	"dependencies": {
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
@@ -37,5 +39,6 @@
 		"presets": [
 			"@babel/preset-react"
 		]
-	}
+	},
+	"license": "MIT"
 }
