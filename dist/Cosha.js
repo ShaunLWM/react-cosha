@@ -1,14 +1,15 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 import React from "react";
-export default function Cosha({
-  className = "cosha",
-  blur = "5px",
-  brightness = 1,
-  saturation = 1,
-  x = 0,
-  y = 0
-}) {
+export default function Cosha(props) {
+  const {
+    className = "cosha",
+    blur = "5px",
+    brightness = 1,
+    saturation = 1,
+    x = 0,
+    y = 0
+  } = props;
   const wrapper = {
     position: "relative",
     display: "inline-flex",

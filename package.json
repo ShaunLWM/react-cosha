@@ -2,7 +2,7 @@
 	"name": "react-cosha",
 	"repository": "git@github.com:ShaunLWM/react-cosha.git",
 	"author": "ShaunLWM ",
-	"version": "0.0.1-alpha.4",
+	"version": "0.0.1-alpha.5",
 	"main": "dist/Cosha.js",
 	"dependencies": {
 		"react": "^16.13.1",
