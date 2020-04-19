@@ -24,6 +24,7 @@ export default function Cosha(props) {
     transform: `translate3d(${x}, ${y}, 0)`
   };
   return /*#__PURE__*/React.createElement("div", {
+    className: `${className}-wrapper`,
     style: wrapper
   }, /*#__PURE__*/React.createElement("img", _extends({}, props, {
     className: className
