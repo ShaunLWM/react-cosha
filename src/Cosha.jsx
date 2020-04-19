@@ -19,7 +19,7 @@ export default function Cosha(props) {
 	};
 
 	return (
-		<div style={wrapper}>
+		<div className={`${className}-wrapper`} style={wrapper}>
 			<img {...props} className={className}></img>
 			<img {...props} className={`${className}-clone`} style={clone}></img>
 		</div>
